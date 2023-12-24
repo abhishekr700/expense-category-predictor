@@ -1,0 +1,9 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.1.2+cpu
+torchvision==0.16.2+cpu
+
+Flask==2.0.1
+Werkzeug==2.2.2
+python-dotenv==0.19.1
+fastai==2.7.13
+pandas==2.1.4
