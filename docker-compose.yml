@@ -3,6 +3,7 @@ services:
   expense-category-predictor:
     container_name: expense-category-predictor
     build: .
+    restart: unless-stopped
     environment:
       DB_HOST: ${DB_HOST}
     ports:
